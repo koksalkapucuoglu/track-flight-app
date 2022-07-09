@@ -83,22 +83,6 @@ Run django project
 
 ![Flight Count](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/flight_count.PNG?token=GHSAT0AAAAAABM4JJZJANP7T4XRFL5HYMO6YWJLRCQ)
 
-### Run the app inside a Docker container
-
-1. Build the docker container and get it up and running.
-
-```
-$ docker-compose build
-$ docker-compose up
-```
-
-2. Setup database tables by running migrations.
-
-```
-$ docker-compose run --rm web python manage.py makemigrations
-$ docker-compose run --rm web python manage.py migrate
-```
-
 ### Swagger
 
 1. Go to [http://localhost:8000/swagger](http://localhost:8000/swagger) to see Swagger documentation for API endpoints.
@@ -143,3 +127,20 @@ flake8 <dir>
 ```
 
 ![Lint Results](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/flake8.PNG?token=GHSAT0AAAAAABM4JJZIZWELQTJ6NC3C57CKYWJLTGQ)
+
+
+### Run the app inside a Docker container
+
+1. Build the docker container and get it up and running.
+
+```
+$ docker-compose build
+$ docker-compose up
+```
+
+2. Setup database tables by running migrations.
+
+```
+$ docker-compose run --rm web python manage.py makemigrations
+$ docker-compose run --rm web python manage.py migrate
+```
