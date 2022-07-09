@@ -14,9 +14,11 @@
 
 ## Features
 
-- Integrate Mqtt publising and subscribing system
-- Device and Broker management
-- Supports pagination system
+- Management of airport list and flight list
+- Track of flight count
+- Better documentation using Swagger
+- Better system to using test-driven development
+- Dockerization
 
 ## Run Locally
 
@@ -29,7 +31,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd tracking-flight-app
+  cd track-flight-app
 ```
 
 Create python env
