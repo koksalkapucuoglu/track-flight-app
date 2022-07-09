@@ -23,7 +23,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/koksalkapucuoglu/tracking-flight-app.git
+  git clone https://github.com/koksalkapucuoglu/track-flight-app.git
 ```
 
 Go to the project directory
@@ -75,11 +75,11 @@ Run django project
   python manage.py runserver
 ```
 
-![Airport List](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/device_list.PNG?token=GHSAT0AAAAAABM4JJZJNXWNDJS7SSP2HC7IYSEDHLQ)
+![Airport List](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/airport_list.PNG?token=GHSAT0AAAAAABM4JJZJBKMBC6475K6SXFGGYWJLQIQ)
 
-![Flight List](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Flight List](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/flight_list.PNG?token=GHSAT0AAAAAABM4JJZJJS2CZBLJBS2DENKOYWJLQWA)
 
-![Flight Count](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Flight Count](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/flight_count.PNG?token=GHSAT0AAAAAABM4JJZJANP7T4XRFL5HYMO6YWJLRCQ)
 
 ### Run the app inside a Docker container
 
@@ -101,13 +101,13 @@ $ docker-compose run --rm web python manage.py migrate
 
 1. Go to [http://localhost:8000/swagger](http://localhost:8000/swagger) to see Swagger documentation for API endpoints.
 
-![Swagger Endpoint List](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Swagger Endpoint List](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/swagger_endpoints.PNG?token=GHSAT0AAAAAABM4JJZJOBSX7VCLW6NOEFOCYWJLRNQ)
 
-![Create Airport](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Create Airport](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/create_airport.PNG?token=GHSAT0AAAAAABM4JJZISHX5JVINIQ7JSEWIYWJLRYQ)
 
-![Create Flight](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Create Flight](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/create_flight.PNG?token=GHSAT0AAAAAABM4JJZJQXJDS5G5VXYH2T2YYWJLSAA)
 
-![Get Flight Number](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Get Flight Count](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/get_flight_count.PNG?token=GHSAT0AAAAAABM4JJZIDZ6YA7FIXJNZVQWCYWJLSMQ)
 
 ### Run Django admin dashboard
 
@@ -130,9 +130,9 @@ coverage run manage.py test
 coverage report 
 ```
 
-![Test Results](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Test Results](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/test_result.PNG?token=GHSAT0AAAAAABM4JJZI4BYBPXI4X27MP7EMYWJLSVQ)
 
-![Coverage Result and Report](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Coverage Result and Report](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/coverage_test_and_report.PNG?token=GHSAT0AAAAAABM4JJZJIBLNFPIMQY3ZRVKAYWJLS3Q)
 
 ### Lint your code
 
@@ -140,4 +140,4 @@ coverage report
 flake8 <dir>
 ```
 
-![Lint Results](https://raw.githubusercontent.com/koksalkapucuoglu/django-mqtt-app/master/app_screenshots/broker_list.PNG?token=GHSAT0AAAAAABM4JJZI7EGJFO54CUK7PFEKYSEDHJQ)
+![Lint Results](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/flake8.PNG?token=GHSAT0AAAAAABM4JJZIZWELQTJ6NC3C57CKYWJLTGQ)
