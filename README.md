@@ -69,6 +69,7 @@ Setup MySQL Enviroment
 2. Start Apache and MySQL module
 3. Go to [MySQL dashboard](http://localhost/phpmyadmin/index.php?route=/database/structure&db=trackingflightdatabase).
 4. Create database as trackingFlightDatabase
+5. Import dataset using trackingflightdatabase_old.sql file
 
 Detect django model changes
 
