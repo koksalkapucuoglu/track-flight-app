@@ -39,18 +39,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: install package manager and dependencies
-        run: |
-            python3 -m pip install virtualenv
-            python3 -m venv ~/.venv/trackflight
-            @echo ~/.venv/trackflight/bin
-	          ~/.venv/trackflight/bin/pip3 install -r requirements.txt
-	          ~/.venv/trackflight/bin/pip3 install -r requirements_dev.txt
+        run: make install
 
       - name: run coverage
         run: |
-            @echo 'Running tests and making coverage files'
-	          ~/.venv/trackflight/bin/coverage run manage.py test
-	          ~/.venv/trackflight/bin/coverage report
+            make coverage
             ~/.venv/trackflight/bin/coverage xml
       # Uncomment after setting CODECOV_TOKEN in your repository
       #- name: Upload coverage to Codecov
