@@ -10,7 +10,11 @@
 
 **Test** Django Test, Flake8, Factory Boy
 
+**CI/CD** Docker, Github Actions
+
 **Documentation:** Swagger
+
+
 
 ## Features
 
@@ -18,7 +22,7 @@
 - Track of flight count
 - Better documentation using Swagger
 - Better system to using test-driven development
-- Dockerization
+- Continuous Integration for deployment
 
 ## Run Locally
 
@@ -58,6 +62,13 @@ Install requirements
   pip install -r requirements.txt
   pip install -r requirements_dev.txt
 ```
+
+Setup MySQL Enviroment
+
+1. Install XAMPP and run
+2. Start Apache and MySQL module
+3. Go to [MySQL dashboard](http://localhost/phpmyadmin/index.php?route=/database/structure&db=trackingflightdatabase).
+4. Create database as trackingFlightDatabase
 
 Detect django model changes
 
