@@ -89,7 +89,7 @@ Run django project
   python manage.py runserver
 ```
 
-![Airport List](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/airport_list.PNG?token=GHSAT0AAAAAABM4JJZJBKMBC6475K6SXFGGYWJLQIQ)
+![Airport List](https://github.com/koksalkapucuoglu/track-flight-app/blob/master/readme_images/airport_list.PNG)
 
 ![Flight List](https://raw.githubusercontent.com/koksalkapucuoglu/track-flight-app/master/readme_images/flight_list.PNG?token=GHSAT0AAAAAABM4JJZJJS2CZBLJBS2DENKOYWJLQWA)
 
