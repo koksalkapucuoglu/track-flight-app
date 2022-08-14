@@ -1,6 +1,5 @@
 # trackflight app
 
-
 ## Tech Stack
 
 **Core Tech:** Python
